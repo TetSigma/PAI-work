@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 const port = 3000;
-const dbUrl = 'mongodb+srv://tetsigma:59lnoV1XAauqhfnx@cluster0.e1xuvc5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Zmień na właściwy URL bazy danych MongoDB
+const dbUrl = 'mongodb+srv://tetsigma:59lnoV1XAauqhfnx@cluster0.e1xuvc5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
